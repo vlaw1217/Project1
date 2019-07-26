@@ -1,0 +1,45 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+/*  Map marker */
+.input-container input[type=text] {
+  padding-left:40px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.input-container {
+  position: relative;
+}
+
+#mapMarker {
+  position: absolute;
+  left: 3;
+  top: 4px;
+  padding-left: 10px;
+ 
+}
+
+
+table#datainsert {
+  margin-left: 40%;
+  margin-top: 2%;
+  border-spacing: 10px 10px;
+  border: 2px solid black;
+  height: auto;
+  width: 500px;
+}
+
+tr:nth-child(1)
+{
+  background-color: cornsilk;
+}
+
+
